@@ -11,8 +11,7 @@
         "outputPath": "dist/libs/shared-auth",
         "tsConfig": "libs/shared-auth/tsconfig.lib.json",
         "main": "libs/shared-auth/src/index.ts",
-        "assets": [],
-        "rootDir": "."
+        "assets": []
       }
     }
   }
