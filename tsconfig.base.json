@@ -21,6 +21,8 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
+      ".prisma/client": ["node_modules/.prisma/client"],
+      ".prisma/client/*": ["node_modules/.prisma/client/*"],
       "@autoflow/shared-types": ["libs/shared-types/src/index.ts"],
       "@autoflow/shared-auth": ["libs/shared-auth/src/index.ts"],
       "@autoflow/shared-prisma": ["libs/shared-prisma/src/index.ts"],
