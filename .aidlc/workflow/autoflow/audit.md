@@ -90,3 +90,27 @@
 **Action**: generation
 **Artifacts**: autoflow-foundation/tasks.md, autoflow-foundation/decisions-tasks.md
 **Outcome**: 18 tasks across 8 phases, 4 execution waves (3 parallel waves). Component-first strategy, bottom-up. Coverage: 7 components, 3 entities, 4 endpoints. All design elements covered.
+
+### [2025-05-19T10:00:00Z] Design: Decision Gate
+
+**Phase**: design
+**Action**: decision-gate
+**Unit**: reports
+**Artifacts**: .aidlc/workflow/autoflow-reports/decisions-design.md
+**Outcome**: 9 decisions — all recommended options selected. Alert architecture (Guard), hardcoded rules, alert_log table, cross-schema queries, pagination, Angular Material, no export, mock services, PBT enabled.
+
+### [2025-05-19T10:01:00Z] Design: Validation
+
+**Phase**: design
+**Action**: validation
+**Unit**: reports
+**Artifacts**: .aidlc/workflow/autoflow-reports/decisions-design.md
+**Outcome**: No conflicts detected. All decisions compatible with foundation stack (NestJS + Prisma + Angular + PostgreSQL).
+
+### [2025-05-19T10:02:00Z] Design: Generation
+
+**Phase**: design
+**Action**: generation
+**Unit**: reports
+**Artifacts**: .kiro/specs/autoflow-reports/design.md
+**Outcome**: Compact design — 5 components, 2 entities (1 table + 2 views), 7 endpoints, 5 PBT properties. Single design.md file (≤10 stories).

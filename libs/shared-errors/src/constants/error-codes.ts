@@ -23,6 +23,15 @@ export const ErrorCodes = {
 
   /** User does not have the required role for this operation */
   INSUFFICIENT_ROLE: 'INSUFFICIENT_ROLE',
+
+  /** CN_RETURN has non-zero inventory fields (qty or totalCost) */
+  CN_RETURN_INVENTORY: 'CN_RETURN_INVENTORY',
+
+  /** INVOICE_FROM_DO has non-zero stock/AR fields */
+  INVOICE_FROM_DO_STOCK: 'INVOICE_FROM_DO_STOCK',
+
+  /** Alert validation failed — one or more ERROR rules violated */
+  ALERT_VALIDATION_FAILED: 'ALERT_VALIDATION_FAILED',
 } as const;
 
 export type ErrorCode = (typeof ErrorCodes)[keyof typeof ErrorCodes];
